@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="58px" viewBox="0 0 55 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>EndPoint</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.3835035,34.0087283 L18.4721472,38.5773939 C17.9784185,39.1394086 17.1397664,39.1379472 16.6902363,38.5904477 L12.6489072,34.0120521 C0.0855285185,33.833245 2.51993272e-14,32.1842834 0,17.016868 C-2.81117784e-14,0.104281315 0.247160721,0 17.5,0 C34.7528393,0 35,0.202686994 35,17.016868 C35,32.0830537 34.9146186,33.8120632 22.3835129,34.0087281 Z" id="path-1"></path>
+        <filter x="-47.1%" y="-34.6%" width="194.3%" height="184.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.121568627   0 0 0 0 0.117647059   0 0 0 0 0.145098039  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EndPoint" transform="translate(10.000000, 7.000000)">
+            <g id="Backing/Violet">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0955EC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Icon/Shopping" transform="translate(10.000000, 9.824561)">
+                <path d="M1.84493076,4.5 C1.31241098,4.49852355 13.7129822,4.49852355 13.1804625,4.5 C13.7129822,4.49852355 14.1562541,4.9022007 14.1961911,5.425 L14.9935381,13.75 C15.0263383,14.0637543 14.9334015,14.3777168 14.7345273,14.625 C14.5463909,14.856475 14.2636308,14.9938343 13.9625735,15 L1.04250513,15 C0.739658589,14.9953113 0.454737771,14.857807 0.265472721,14.625 C0.0665984781,14.3777168 -0.0263383055,14.0637543 0.00646191622,13.75 L0.829202119,5.425 C0.86913915,4.9022007 1.31241098,4.49852355 1.84493076,4.5 Z M3.18569258,4.5 L3.18569258,4.25 C3.18569258,1.90278981 5.1184107,-1.11022302e-16 7.50253932,0 C9.88666795,1.11022302e-16 11.8193861,1.90278981 11.8193861,4.25 L11.8193861,4.5 L3.18569258,4.5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M4.70928555,4.25 C4.70928555,2.73121694 5.95986786,1.5 7.50253932,1.5 C9.04521078,1.5 10.2957931,2.73121694 10.2957931,4.25 L10.2957931,4.5 L4.70928555,4.5 L4.70928555,4.25 Z" id="Shape" fill="#0955EC" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

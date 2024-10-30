@@ -1,0 +1,343 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@font-face {
+	font-family: "Heebo";
+	src: url("https://cdn.mapfit.com/v2-3/assets/fonts/Heebo/Heebo-Regular.ttf") format('truetype');
+}
+
+ /* global & overrides */
+ body{
+   overflow: initial;
+ }
+ #wpfooter{
+   padding: 10px;
+   width: 300px;
+ }
+ .clear{
+   clear:both;
+   display: block;
+ }
+ .col-sm-3{
+   display: inline-block;
+   /* width: 33%; */
+   width:116px;
+   vertical-align: top;
+ }
+ .col-sm-6{
+   display: inline-block;
+   width: 48%;
+   vertical-align: top;
+ }
+ .col-sm-9{
+   display: inline-block;
+   width: 147px;
+   vertical-align: top;
+ }
+ #wpcontent{
+   padding-left:0;
+ }
+
+
+
+ /* common styles */
+ .pink{
+  color:#e2508d;
+ }
+ .gray{
+	background-color: gray;
+ }
+
+
+#mapfitbuilder{
+  font-family: 'Heebo';
+ }
+#mapfitbuilder .button{
+  width: 100%;
+  border-radius: 4px;
+  padding: .5em;
+  height: 3em;
+  text-align: center;
+  background-color: #4353ff;
+  border: 2px solid #4353ff;
+  color:white;
+  margin:1em 0;
+}
+.mapfit-header{
+  max-width: 168px;
+  margin: 1em 3em;
+}
+.mapfit-header-image{
+  width:100%;
+  height: 100%;
+}
+.mapfitsidebar{
+   display: block;
+   width: 320px;
+   float: left;
+   height: 100%;
+   overflow: hidden;
+ }
+ .mapfitsidebar h4{
+   font-weight: bold;
+ }
+.mapfitform{
+  background: white;
+  padding: 1em 2em;
+  box-shadow: 0 2px 0 0 #dde1e7;
+}
+
+.mapfitform input[type=text], select{
+  width: 100%;
+  border-radius: 4px;
+  background-color: #f0f2f4;
+  box-shadow: none;
+  margin: .3em auto;
+  height: 2.75em;
+}
+.mapfitform input[type=text]:focus, select:focus{
+  background: white;
+}
+
+/* dd */
+.mapfitform ul.dd-options{
+  height: 14em;
+  overflow-y: scroll;
+}
+
+/* dd scroll */
+.mapfitform ul.dd-options::-webkit-scrollbar{
+  width:5px;
+}
+.mapfitform ul.dd-options::-webkit-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.mapfitform ul.dd-options::-webkit-scrollbar-thumb{
+  width: 5px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #c7d2de;
+}
+
+.mapfitform ul.dd-options li{
+  margin: auto;
+}
+.mapfitform .dd-option{
+  border: solid 1px #eaf1f8;
+  opacity:.7;
+}
+.mapfitform .dd-option:hover{
+  opacity:1;
+  background-color: white;
+  font-weight: bold;
+}
+
+.mapfitform .dd-select{
+  border-radius: 4px;
+}
+.mapfitform .dd-selected{
+  padding:initial!important;
+  font-weight: normal!important;
+  vertical-align: middle;
+  background-color: #f0f2f4;
+  color: #1a2f52;
+  border-radius: 4px;
+}
+
+
+.mapfitform .dd-selected-image{
+  vertical-align: middle;
+  float: left;
+  margin-right: 5px;
+  max-width: 1.75em;
+  object-fit: contain;
+  line-height: 3em;
+  height: 3em;
+  padding: 0 .5em;
+}
+.mapfitform .dd-selected-text{
+  line-height: 40px;
+}
+.mapfitform a.dd-option{
+  padding: initial;
+}
+.mapfitform .dd-option-image{
+  padding: initial;
+	vertical-align: middle;
+	float: left;
+  margin-right: 5px;
+	max-width: 1.75em;
+	object-fit: contain;
+	line-height: 3em;
+	height: 3em;
+	padding: 0 .5em;
+}
+
+/* .mapfitform input[name=theme]{ } */
+.mapfitform label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.mapfitform label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+	border: 3px solid #FFF;
+	border-radius: 7px;
+}
+.mapfitform label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:3px solid #144fec;
+}
+
+.mapfitform input[name=mapfit_shortcode]{
+  font-family: sans-serif;
+}
+
+.shortcode{
+  display: inline;
+}
+
+.copyGroup { float:right }
+.copyGroup:hover{ cursor: pointer}
+.copyGroup img:last-child{display:none}
+.copyGroup:hover img:first-child{display:none}
+.copyGroup:hover img:last-child{display:inline-block}
+.copied-text{
+  display: none;
+  float:right;
+  margin:0 .5em;
+}
+ .mapfitmap{
+   background: #999;
+   overflow: hidden;
+   height: 100%;
+ }
+ .mapFormContainer{
+ }
+
+ .notification{
+   border-left: 4px solid #e2508d;
+   background:white;
+   padding: 1em 2em;
+   margin-bottom: .5em;
+ }
+ .notification h1{
+	color:#e2508d;
+	font-weight: bold;
+	color: #e2508d;
+	text-transform: uppercase;
+	font-size: 1em;
+ }
+ .notification input {
+   width: 100%;
+ }
+
+
+#webEmbed{
+  width: 100%;
+  height: 96%;
+  min-height: 855px;
+  display:block;
+  position: fixed;
+}
+
+
+/* imported styles */
+#selectResult {
+  background-color: #ebedf0;
+  border-radius: 4px;
+  padding: 5px 0px 5px 5px;
+  position: relative;
+}
+#selectResult:hover {
+  cursor: pointer;
+}
+#selectResult img {
+  margin-bottom: 0px;
+}
+
+#selectBtn {
+  position: absolute;
+  z-index: 2;
+  border-radius: 4px;
+  margin-top: 3px;
+  height: 200px;
+  overflow: scroll;
+  width: 10em;
+}
+#selectBtn .selectContainer {
+  background-color: #FFF;
+  padding: 8px 0px 0px 14px;
+}
+#selectBtn .selectContainer:hover {
+  background-color: violetblue;
+  cursor: pointer;
+}
+#selectBtn .selectContainer svg {
+  margin: 0px 10px 10px 0px;
+}
+#selectBtn .selectContainer:hover #path-1-link {
+  fill: #0955ec;
+}
+#selectBtn .selectContainer:before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  height: 1px;
+  width: 80%;
+  /* or 100px */
+  border-bottom: 1px solid #eaf1f8;
+}
+
+#selectResult.selectActive {
+  background-color: #FFF;
+}
+
+.input-select:after {
+  content: " " !important;
+  border: 0px !important;
+}
+
+.formHdr, .iframeHdr {
+  margin: 18px 0px 10px 0px;
+  font-size: .8em;
+  color: #9098a2;
+  text-align: left;
+  letter-spacing: 0.6px;
+}
+
+.downArrow, .upArrow {
+  position: absolute;
+  top: 40%;
+  right: 18px;
+}
+.activation{
+  color: #e2508d;
+}
+
+
+.upArrow {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Safari 3-8 */
+  transform: rotate(180deg);
+}
+.upArrow #Mapbuilder {
+  fill: #144fec;
+}
+
+#termsLink {
+  font-size: .8em;
+  font-family: Heebo;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9098a2;
+}
+#termsLink a{
+  color: #4353ff;
+}
